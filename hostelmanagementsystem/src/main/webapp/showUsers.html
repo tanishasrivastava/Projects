@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Users</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <h2>STUDENT DETAILS</h2>
+    
+    <select onchange="showOption(this.value)">
+        <option value="#" selected>Select an option</option>
+        <option value="showUsers.html">STUDENT DETAILS</option>
+        <option value="register.html">REGISTER</option>
+    </select>
+
+    <table id="userTable">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Phone</th>
+            <th>Registration Date</th>
+            <th>Course</th>
+            <th>Email</th>
+        </tr>
+     
+        <tr>
+            <td>Shally Rana</td>
+            <td>160</td>
+            <td>shally_rana</td>
+            <td>1234567890</td>
+            <td>2023-01-01</td>
+            <td>CSE->FS-A</td>
+            <td>shally@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Tanisha Srivastava</td>
+            <td>175</td>
+            <td>tanisha_srivastava</td>
+            <td>9876543210</td>
+            <td>2023-01-02</td>
+            <td>CSE->FS-A</td>
+            <td>tanisha@gmail.com</td>
+        </tr>
+     
+        <tr>
+            <td>Ishika Kumar</td>
+            <td>305</td>
+            <td>ishika_kumar</td>
+            <td>1234567890</td>
+            <td>2023-01-03</td>
+            <td>CSE->FS-A</td>
+            <td>ishika@gmail.com</td>
+        </tr>
+         <tr>
+            <td>Avishi Kaushik</td>
+            <td>324</td>
+            <td>avishi_kaushik</td>
+            <td>1234567890</td>
+            <td>2023-01-03</td>
+            <td>CSE->FS-A</td>
+            <td>avishi@gmail.com</td>
+        </tr>
+    </table>
+
+    <script>
+        function showOption(option) {
+            window.location.href = option;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Hostel Staff Members</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(238, 232, 170);
+        }
+
+        h2 {
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h2> HOSTEL STAFF MEMBERS </h2>
+    
+   
+    <table id="staffTable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Username</th>
+            <th>UserType</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Registration Date</th>
+        </tr>
+     
+        <tr>
+            <td>101</td>
+            <td>Sanjeev</td>
+            <td>sanjeev_gupta</td>
+            <td>Admin</td>
+            <td>sanjeev@gmail.com</td>
+            <td>9876543210</td>
+            <td>2023-01-01</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Sunita Sharma</td>
+            <td>sunita_sharma</td>
+            <td>Clerk</td>
+            <td>sunita@gmail.com</td>
+            <td>9876543211</td>
+            <td>2023-01-02</td>
+        </tr>
+     
+        <tr>
+            <td>103</td>
+            <td>Vibha</td>
+            <td>vibha_12</td>
+            <td>Warden</td>
+            <td>vibha@yahoo.com</td>
+            <td>9876543212</td>
+            <td>2023-01-03</td>
+        </tr>
+         <tr>
+            <td>104</td>
+            <td>Ajay Saxena </td>
+            <td>ajay_45</td>
+            <td>Admin</td>
+            <td>ajay@yahoo.com</td>
+            <td>9876543213</td>
+            <td>2023-01-04</td>
+        </tr>
+    </table>
+
+    <script>
+        function showOption(option) {
+            window.location.href = option;
+        }
+    </script>
+</body>
+</html>
