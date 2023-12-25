@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tanisha Srivastava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 18);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.08rem;
+            color: plum;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            max-width: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #9c97f1;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #9c97f1;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            padding: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #6c5ce7;
+        }
+
+        /* Additional Styles */
+        .contact-info {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            margin-bottom: 10px;
+            width: 200px;
+            height: 60px;
+            background-color: #9c97f1;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-links a img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .contact-links a:hover {
+            background-color: #6c5ce7;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="font-family: 'DM Serif Display', serif; font-size: 2rem;">TANISHA'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>CONTACT ME </h1>
+        <div class="contact-info">
+            <p>Email: srivastavatanisha4@gmail.com</p>
+            <p>Phone: +91 8595618499</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/tanisha-srivastavaa/" target="_blank">
+                <img src="lnk.png" alt="LinkedIn">
+                LinkedIn
+            </a>
+            <a href="https://github.com/tanishasrivastava" target="_blank">
+                <img src="gh.png" alt="GitHub">
+                GitHub
+            </a>
+            <a href="https://leetcode.com/TanishaSrivastava/" target="_blank">
+                <img src="lc.png" alt="LeetCode">
+                LeetCode
+            </a>
+        </div>
+    </main>
+</body>
+
+</html>

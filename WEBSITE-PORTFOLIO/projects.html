@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanisha Srivastava - Developer Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(13, 13, 18);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.08rem;
+            color: plum;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .project-box {
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #9c97f1;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(156, 151, 241, 0.5);
+        }
+
+        .project-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .project-box a {
+            display: block;
+            margin-top: 10px;
+            color: #9c97f1;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="font-family: 'DM Serif Display', serif; font-size: 2rem;">TANISHA'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="project-box">
+                <img src="hm.png" alt="Project-1">
+                <h3> HOSTEL MANAGEMENT(C)</h3>
+            </a>
+            <a href="https://github.com/tanishasrivastava/Projects/blob/main/HostelManagement_Project.c" target="_blank">GitHub Link</a>
+        </div>
+        <div class="project-box">
+            
+                <img src="phcaa.png" alt="PROJECT-2">
+                <h3> PRODUCTIVITY HRS. CALCULATOR(JAVA)</h3> 
+            </a>
+            <a href="https://github.com/tanishasrivastava/Projects/blob/main/Phcaa.java" target="_blank">GitHub Link</a>
+        </div>
+        <div class="project-box">
+                <img src="hw.png" alt="Project 3">
+                <h3>A HOSTEL MANAGEMENT WEBSITE </h3>
+              
+            </a>
+            <a href="https://github.com/tanishasrivastava/Projects/tree/main/hostelmanagementsystem" target="_blank">GitHub Link</a>
+        </div>
+        <div class="project-box">
+                <img src="cdsa.png" alt="Project 4">
+                <h3>CUSTOMER DATA SORTING APP.</h3>
+            </a>
+            <a href="https://github.com/tanishasrivastava/Projects/commit/bab3d0c9f9f79375da81f13447789e280ba91b9f" target="_blank">GitHub Link</a>
+        </div>
+    </main>
+</body>
+
+</html>
